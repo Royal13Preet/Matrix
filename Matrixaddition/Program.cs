@@ -32,16 +32,7 @@ namespace Matrixaddition
 
             Console.WriteLine("Enter the second matrix ");
 
-            for (i = 0; i < row; i++)
-            {
-                for (j = 0; j < col; j++)
-                {
-                    Console.WriteLine($"enter a elements  {i}{j}");
-                    values1[i, j] = Convert.ToInt32(Console.ReadLine());
-                }
-
-
-            }
+            
 
             Console.WriteLine("the first matrix is");
             for (i = 0; i < row; i++)
