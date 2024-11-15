@@ -42,6 +42,16 @@ namespace Matrixaddition
 
 
             }
+            Console.WriteLine("the first matrix is");
+            for (i = 0; i < row; i++)
+            {
+                for (j = 0; j < col; j++)
+                {
+                    Console.Write(values[i, j] + " ");
+
+                }
+                Console.WriteLine();
+            }
 
             Console.WriteLine("the first matrix is");
             for (i = 0; i < row; i++)
