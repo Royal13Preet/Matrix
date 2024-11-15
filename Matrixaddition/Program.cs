@@ -74,16 +74,7 @@ namespace Matrixaddition
                 }
             }
 
-            Console.WriteLine("The sum of two matices are: ");
-            for (i = 0; i < row; i++)
-            {
-                for (j = 0; j < col; j++)
-                {
-                    Console.Write(addmatrix[i, j] + " ");
 
-                }
-                Console.WriteLine();
-            }
 
 
         }
