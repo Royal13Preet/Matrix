@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Matrixaddition
 {
-    internal class Program
+    internal class Program1
     {
         
         static void Main(string[] args)
