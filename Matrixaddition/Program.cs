@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Matrixaddition
+namespace Matrix
 {
     internal class Program1
     {
