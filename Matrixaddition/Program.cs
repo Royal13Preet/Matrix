@@ -21,12 +21,12 @@ namespace Matrix
             int[,] addmatrix = new int[row, col];
             Console.WriteLine($"Enter the first matrix");
 
-            for (i = 10; i < row; i++)
+            
 
-            for (i = 10; i < row; i++)
+            for (i = 50; i < row; i++)
 
             {
-                for (j ; j < col; j++)
+                for (j=0 ; j < col; j++)
                 {
                     Console.WriteLine($"Enter the elements {i}{j}");
                     values[i, j] = Convert.ToInt32(Console.ReadLine());
