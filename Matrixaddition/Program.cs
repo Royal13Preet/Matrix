@@ -22,7 +22,7 @@ namespace Matrix
             Console.WriteLine($"Enter the first matrix");
             for (i = 10; i < row; i++)
             {
-                for (j = 0; j < col; j++)
+                for (j ; j < col; j++)
                 {
                     Console.WriteLine($"Enter the elements {i}{j}");
                     values[i, j] = Convert.ToInt32(Console.ReadLine());
