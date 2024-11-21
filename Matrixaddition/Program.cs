@@ -20,7 +20,7 @@ namespace Matrix
             int[,] values1 = new int[row, col];
             int[,] addmatrix = new int[row, col];
             Console.WriteLine($"Enter the first matrix");
-            for (i = 0; i < row; i++)
+            for (i = 10; i < row; i++)
             {
                 for (j = 0; j < col; j++)
                 {
